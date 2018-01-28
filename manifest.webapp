@@ -1,0 +1,20 @@
+{
+  "name": "Radio Box",
+  "description": "A radio box where user can find popular radios of bangladesh",
+  "launch_path": "/index.html",
+  "icons": {
+    "16": "/icons/icon16x16.png",
+    "48": "/icons/icon48x48.png",
+    "60": "/icons/icon60x60.png",
+    "128": "/icons/icon128x128.png"
+  },"orientation": "portrait",
+  "default_locale": "en",
+  "developer": {
+    "name": "OmeletIT",
+    "url": "http://omleteit.com"
+  },
+  "permissions": {
+      "audio-channel-content":{"description":  "Using this for play radio in background"}
+   },
+   "version": "1.0.3"
+}

@@ -1,0 +1,59 @@
+/* font face start*/
+
+@font-face
+{
+    font-family: good;
+    src: url(font/Quicksand-Bold.otf);
+}
+
+@font-face
+{
+    font-family: time;
+    src: url(font/Xolonium-Bold.otf);
+}
+
+
+
+.title-text
+{
+    color: white;
+    font-family: "good";
+}
+
+.radio-icon
+{
+}
+.list-p
+{
+    font-family: "good";
+    margin-left: -11px;
+}
+#radioSelect
+{
+    margin-top: 1px;
+}
+.divide
+{
+    border-left: 1px solid #38546d;
+    border-right: 1px solid #38546d;
+    height: 32px;
+    text-align: center;
+}
+.radioImagePos
+{
+    display: table-cell;
+    vertical-align: middle;
+    width: 256px;
+    height: 256px;
+    text-align: center;
+    margin-left: 18px;
+    margin-top:20px;
+    margin-right: auto;
+}
+#radioDetails
+{
+    background:#fff;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
